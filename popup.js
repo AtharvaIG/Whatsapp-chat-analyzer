@@ -2,7 +2,7 @@ const analyzeBtn = document.getElementById("analyzeBtn");
 const resultDiv = document.getElementById("result");
 
 // Insert your OpenRouter API key here (keep it secret!)
-const OPENROUTER_API_KEY = "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";
+const OPENROUTER_API_KEY = "REPLACE_WITH_YOUR_KEY";
 
 // OpenRouter endpoint for chat completions
 const OPENROUTER_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions";
