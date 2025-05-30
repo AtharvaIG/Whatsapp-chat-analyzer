@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WhatsApp Chat Analyzer</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        padding: 10px;
+        width: 320px;
+      }
+      button {
+        background-color: #007bff;
+        color: white;
+        padding: 8px 12px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 14px;
+      }
+      #result {
+        margin-top: 10px;
+        white-space: pre-wrap;
+        max-height: 300px;
+        overflow-y: auto;
+        border: 1px solid #ddd;
+        padding: 8px;
+        border-radius: 4px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>WhatsApp Chat Analyzer</h3>
+    <button id="analyzeBtn">Analyze Messages</button>
+    <div id="result"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>

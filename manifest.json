@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "WhatsApp Chat Analyzer",
+  "version": "1.0",
+  "description": "Analyze WhatsApp chats using OpenAI",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "host_permissions": ["https://web.whatsapp.com/*"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://web.whatsapp.com/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
